@@ -71,5 +71,12 @@ namespace CalculatorTests
             double result = calc.Multiplication(2, 3);
             Assert.AreEqual(6, result);
         }
+        [Test]
+        public void Plus_22plus22_44()
+        {
+            Calculator calc = new Calculator();
+            double result = calc.Plus(22, 22);
+            Assert.AreEqual(44, result);
+        }
     }
 }
