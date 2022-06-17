@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp калькулятор Туленцева", "ConsoleApp калькулятор Туленцева\ConsoleApp калькулятор Туленцева.csproj", "{0A335D5A-52A5-46A0-BE20-E12C562148AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTests", "CalculatorTests\CalculatorTests.csproj", "{514E17A6-B30B-4B43-84FC-0E3FD88C0203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A335D5A-52A5-46A0-BE20-E12C562148AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A335D5A-52A5-46A0-BE20-E12C562148AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A335D5A-52A5-46A0-BE20-E12C562148AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A335D5A-52A5-46A0-BE20-E12C562148AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514E17A6-B30B-4B43-84FC-0E3FD88C0203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514E17A6-B30B-4B43-84FC-0E3FD88C0203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514E17A6-B30B-4B43-84FC-0E3FD88C0203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514E17A6-B30B-4B43-84FC-0E3FD88C0203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {972B257F-EF8B-4E5F-98D2-7C2ED84BEE73}
+	EndGlobalSection
+EndGlobal
