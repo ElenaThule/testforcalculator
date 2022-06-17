@@ -38,14 +38,21 @@ namespace ConsoleApp_калькулятор_Туленцева
             return result;
         }
 
-        public double Average(double [] array)
-        { double sum = 0;
-            for (int i = 0; i < array.Length; i++)
+        public double Average(double[] array)
         {
-                sum += array[i]; 
+            double sum = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                sum += array[i];
             }
             return sum / array.Length;
         }
+
+        //public double Average(double[] array)
+        //{
+        //    double sum = array.Sum();
+        //    return sum / array.Length;
+        //}
 
     }
     class Program

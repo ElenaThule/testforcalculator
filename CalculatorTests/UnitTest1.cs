@@ -55,15 +55,21 @@ namespace CalculatorTests
             Assert.GreaterOrEqual(result, 12);
         }
 
+        //[Test]
+        //public void Average_12345_3()
+        //{
+        //    Calculator calc = new Calculator();
+        //    double [] array = new double[] { 1,2,3,4,5};
+        //    double result = calc.Average(array);      
+        //    Assert.AreEqual(3,result);
+        //}
+
         [Test]
-        public void Average_12345_3()
+        public void Multiplication_2multi3_6()
         {
             Calculator calc = new Calculator();
-            double [] array = new double[] { 1,2,3,4,5};
-            double result = calc.Average(array);      
-            Assert.AreEqual(3,result);
+            double result = calc.Multiplication(2, 3);
+            Assert.AreEqual(6, result);
         }
-
-
     }
 }
